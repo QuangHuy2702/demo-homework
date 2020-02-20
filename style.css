@@ -1,0 +1,94 @@
+.menu {
+	height: 100px;
+	display: flex;
+}
+
+.log-in {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu .logo {
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: white;
+}
+
+.menu .menu-bar {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list {
+	list-style: none;
+	color: #FFF;
+	font-size:25px;
+	display: flex;
+}
+
+.menu-list li {
+	padding: 5px 20px;
+}
+
+.menu-list li:hover {
+	color: rgb(105, 129, 237);
+	border-bottom: 3px solid rgb(105, 129, 237);
+}
+
+.log-in .login-form {
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+.login-form .login-logo {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	background-color: #BBB;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.login-form .login-content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  display: inline-block;
+  background-color: #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-content .login-button {
+	background-color: rgb(105, 129, 237);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width:200px;
+	margin-top: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.login-button:hover {
+	background-color: lightblue;
+}

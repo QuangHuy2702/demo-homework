@@ -1,4 +1,14 @@
+body {
+	background-color: #DDD;
+}
+
 .header {
-	width:1900px;
-	height:1200px;
+	width:1500px;
+	height:700px;
+	background-image: url("./images/sky-background.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
 }
