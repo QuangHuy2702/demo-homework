@@ -1,1 +1,1 @@
-This prject is a web-demo by using html+css
+This project is a demo homework by html+css
