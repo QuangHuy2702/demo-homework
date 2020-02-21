@@ -1,14 +1,26 @@
-body {
+.container {
 	background-color: #DDD;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
-	width:1500px;
+	width:1482.92px;
 	height:700px;
 	background-image: url("./images/sky-background.jpg");
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	flex-direction: column;
-	font-family: Arial, sans-serif;
+}
+.content {
+	width: 1482.92px;
+	height: 1200px;
+	display: flex;
+	justify-content: center;
+}
+.footer {
+	width: 100%;
+	height: 300px;
 }
